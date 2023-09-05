@@ -1,11 +1,13 @@
 
 package com.umariana.mundo;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Johan Ordoñez
  */
-public class Video {
+public class Video implements Serializable {
     private int idVideo;
     private String titulo;
     private String autor;
@@ -89,13 +91,5 @@ public class Video {
     public void setLetra(String letra) {
         this.letra = letra;
     }
-
-
-
-
-
-    
-    
-        
     
 }
